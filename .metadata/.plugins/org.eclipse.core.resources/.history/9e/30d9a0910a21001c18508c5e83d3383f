@@ -1,0 +1,20 @@
+package com.training.ms.consumer.ctl;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class ConsumerController {
+
+	@RequestMapping(path = "/consume")
+	public String consumeService() {
+		
+		String serviceURL = "http://localhost:59280/mycall";
+		
+		RestTemplate restTemplate = new RestTemplate();
+		restTemplate.getForEntity(serviceURL, String.class);
+		String response = "";
+		return "Got message from service ->" + response;
+	}
+}

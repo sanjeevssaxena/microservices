@@ -1,0 +1,14 @@
+package com.training.ms.consumer.ctl;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ServiceConsumerCtl {
+
+	@RequestMapping(path = "/feign")
+	public String consumeService() {
+		
+		return "";
+	}
+}

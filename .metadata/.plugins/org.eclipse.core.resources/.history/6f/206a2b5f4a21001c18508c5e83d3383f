@@ -1,0 +1,17 @@
+package com.training.ms.consumer.feign;
+
+public class SampleRestFallback implements SampleRestFeignProxy {
+
+	@Override
+	public String myCall() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String mybean() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

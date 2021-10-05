@@ -1,0 +1,5 @@
+package com.training.ms.config.ctl;
+
+public class MyController {
+
+}

@@ -1,0 +1,28 @@
+package com.training.ms.ctl;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.training.ms.bean.MyBean;
+
+@RestController
+public class MyController {
+	
+	@RequestMapping(path = "/mycall")
+	public String myCall() {
+		
+		return "My first call to service";
+	}
+	
+	@RequestMapping(path="mybean",headers = "'Accept': *,\r\n" + 
+			" 'Content-Type': 'application/json'")
+	public MyBean mybean() {
+		
+		MyBean bean = new MyBean();
+		
+		bean.setId("123");
+		bean.setName("name here");
+		return bean;
+	}
+
+}

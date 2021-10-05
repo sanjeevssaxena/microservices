@@ -1,0 +1,10 @@
+spring.application.name=configuration-service
+server.port=8888
+
+#spring.profiles.active=native
+#spring.cloud.config.server.native.search-locations=file:///D:\\mstraining\\native\\
+
+spring.cloud.config.server.git.uri=https://github.com/sanjeevssaxena/sample-rest-config.git
+spring.cloud.config.server.git.search-paths=sample-rest
+spring.cloud.config.server.git.username=sanjeevsaxena
+spring.cloud.config.server.git.password=sanjeevsaxena

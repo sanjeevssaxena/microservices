@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\sanjeev\\per\\training\\Microservices\\gitrepo\\gs-centralized-configuration\\.git;D\:\\sanjeev\\per\\training\\Microservices\\gitrepo\\spring-boot-rest-api-tutorial\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\sanjeev\\per\\training\\Microservices\\gitrepo\\gs-centralized-configuration\\.git;D\:\\sanjeev\\per\\training\\Microservices\\gitrepo\\spring-boot-rest-api-tutorial\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

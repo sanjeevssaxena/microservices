@@ -1,0 +1,5 @@
+package com.training.ms.consumer.bean;
+
+public class ServiceConsumer {
+
+}

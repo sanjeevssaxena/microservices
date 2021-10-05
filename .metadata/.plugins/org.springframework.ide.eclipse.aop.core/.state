@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="employee-producer"/>
+<aop-project name="simple-service"/>
+<aop-project name="employee-gateway-service"/>
+<aop-project name="SampleRest"/>
+<aop-project name="eureka-server"/>
+<aop-project name="my-gateway-server"/>
+<aop-project name="my-consumer"/>
+<aop-project name="employee-zuul-service"/>
+<aop-project name="config-service"/>
+<aop-project name="employee-consumer"/>
+<aop-project name="api-gateway-server"/>
+<aop-project name="consumer-service-feign"/>
+<aop-project name="config-client"/>
+<aop-project name="centralized-configuration-client"/>
+<aop-project name="spring-boot-rest-api-tutorial"/>
+<aop-project name="eureka-server-new"/>
+<aop-project name="SpringBootSimple"/>
+<aop-project name="consumer-service"/>
+<aop-project name="configuration-service"/>
+<aop-project name="centralized-configuration-service"/>
+</aop-reference-model>

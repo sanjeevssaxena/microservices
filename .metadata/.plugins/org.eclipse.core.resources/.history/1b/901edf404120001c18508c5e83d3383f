@@ -1,0 +1,9 @@
+package com.training.ms.simple.ctl;
+
+public class SimpleController {
+
+	public String mySimple() {
+		
+		return "my simple service";
+	}
+}

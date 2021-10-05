@@ -1,0 +1,4 @@
+server.port:8321
+spring.application.name=SpringBootSimple
+message=from app.properties
+spring.config.import=optional:configserver:http://localhost:8888

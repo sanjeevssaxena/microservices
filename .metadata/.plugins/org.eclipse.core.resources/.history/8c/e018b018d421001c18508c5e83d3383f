@@ -1,0 +1,11 @@
+package com.training.ms.consumer.bean;
+
+public class SampleRestFallback implements SampleRestProxy {
+
+	@Override
+	public String myCall() {
+		// TODO Auto-generated method stub
+		return "Alternate data from fallback";
+	}
+
+}

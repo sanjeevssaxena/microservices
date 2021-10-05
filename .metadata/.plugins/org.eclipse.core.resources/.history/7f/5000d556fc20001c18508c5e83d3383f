@@ -1,0 +1,21 @@
+package com.training.ms.consumer.ctl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.training.ms.consumer.feign.SampleRestFeignProxy;
+
+@RestController
+public class ServiceConsumerCtl {
+
+	@Autowired
+	private SampleRestFeignProxy sampleRestFeign;
+	
+	@RequestMapping(path = "/feign")
+	public String consumeService() {
+		
+		String response = sampleRestFeign.myCall();
+		return "Message via Feign: "+response;
+	}
+}

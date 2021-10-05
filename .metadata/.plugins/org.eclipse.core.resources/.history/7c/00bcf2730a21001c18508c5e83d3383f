@@ -1,0 +1,15 @@
+package com.training.ms.consumer.ctl;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConsumerController {
+
+	@RequestMapping(path = "/consume")
+	public String consumeService() {
+		
+		String response = "";
+		return "Got message from service ->" + response;
+	}
+}

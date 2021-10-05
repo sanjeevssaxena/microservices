@@ -1,0 +1,11 @@
+package com.training.ms.consumer.bean;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@FeignClient(name = "sample-rest")
+public interface SampleRestProxy {
+
+	@RequestMapping(path = "/mycall")
+	public String myCall();
+}

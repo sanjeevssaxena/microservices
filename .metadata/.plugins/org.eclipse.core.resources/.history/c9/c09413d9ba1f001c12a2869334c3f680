@@ -1,0 +1,23 @@
+package com.training.ms.gateway.bean;
+
+import java.util.function.Function;
+
+import org.springframework.cloud.gateway.route.Route;
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.Buildable;
+import org.springframework.cloud.gateway.route.builder.PredicateSpec;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+import org.springframework.context.annotation.Bean;
+
+
+
+public class GatewayRouterConfiguration {
+	
+	@Bean
+	public RouteLocator myRouteConfiguration(RouteLocatorBuilder builder) {
+		
+		Function<PredicateSpec, Buildable<Route>> fn = 
+				(p) -> p.path("/get").uri("httpsbin.org");
+		return builder.routes().route(fn).build();
+	}
+}

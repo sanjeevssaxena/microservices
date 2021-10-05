@@ -1,0 +1,10 @@
+eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka
+server.port=0
+spring.application.name=consumer-service-feign
+
+#Configure the services as per ip-address instead of hostname
+eureka.instance.prefer-ip-address=true
+
+eureka.instance.instance-id=${spring.application.name}:${server.port}
+
+logging.level.com.training.ms.consumer.ctl.ServiceConsumerCtl=debug

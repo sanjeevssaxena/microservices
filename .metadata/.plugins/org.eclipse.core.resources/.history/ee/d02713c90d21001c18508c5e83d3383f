@@ -1,0 +1,9 @@
+package com.training.ms.consumer.bean;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient
+public interface SampleRestProxy {
+
+	
+}

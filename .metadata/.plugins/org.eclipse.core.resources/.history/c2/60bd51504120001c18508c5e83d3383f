@@ -1,0 +1,12 @@
+package com.training.ms.simple.ctl;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SimpleController {
+
+	public String mySimple() {
+		
+		return "my simple service";
+	}
+}

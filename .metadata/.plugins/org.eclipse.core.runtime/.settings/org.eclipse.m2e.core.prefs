@@ -1,0 +1,6 @@
+eclipse.m2.defaultRuntime=conf
+eclipse.m2.runtimes=conf
+eclipse.m2.runtimesNodes/conf/location=D\:\\softwares\\Installed\\maven\\apache-maven-3.6.3-bin\\apache-maven-3.6.3
+eclipse.m2.runtimesNodes/conf/type=EXTERNAL
+eclipse.m2.userSettingsFile=D\:\\softwares\\Installed\\maven\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\conf\\settings.xml
+eclipse.preferences.version=1

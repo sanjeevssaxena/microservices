@@ -1,0 +1,6 @@
+spring.application.name=api-gateway-server
+server.port=8765
+
+#Configure Eureka related configuration
+eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka
+
